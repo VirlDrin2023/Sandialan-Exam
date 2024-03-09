@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+    background-color:#41627E;
+    color: black;
+}
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: rgb(111, 198, 219);
+  color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+max-height: 120px; 
+margin-left: 30px;
+}
+
+nav ul {
+  list-style: none;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+  color: gray; 
+}
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.home {
+    margin-bottom: 40px;
+}
+
+.home img {
+    max-width: 30%;
+    border-radius: 5px;
+    box-shadow: #203864;
+}
+
+.product {
+  margin-bottom: 40px;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+footer {
+  background: rgb(143, 208, 224);
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(112, 111, 103);
+  color: #181313;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: rgb(82, 81, 76);
+}
+
+
+@media screen and (max-width: 600px)
+{
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .home {
+  text-align: justify;
+  color: #203864;
+
+  }
+}
+
+      
+      #contact {
+    background-color:#41627E;
+  }
+ 
+  #contact h2 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  form {
+        margin-top: 20px;
+        text-align: center;
+  }
+
+   label {
+       display: block;
+       font-family: 'Arial', sans-serif;
+       font-size: 18px;
+       color: black; 
+       margin-bottom: 10px;
+
+   } 
+    input[type="text"],
+    textarea {
+        width:100%;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #181313;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    input[type="submit"] {
+        background-color: gray;
+        color: black;
+        padding: 10px 20px;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover{
+        background-color: gray;
+    }
+  
